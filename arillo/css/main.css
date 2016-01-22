@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,600);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+h1,h2,h3,h4{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+
+.section-title{
+	color: #6b6e80;
+}
+
+/*nav bar*/
+.navbar{
+	background: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+.navbar-brand{
+	padding:30px 0;
+}
+.navbar .navbar-nav li a{
+	padding: 30px 35px;
+}
+.navbar .navbar-nav li a:hover{
+	background: none;
+}
+.navbar .navbar-nav li.active a:after{
+	background: #3bafda none repeat scroll 0 0;
+    border-radius: 100%;
+    bottom: 15px;
+    content: "";
+    height: 8px;
+    left: 50%;
+    margin-left: -4px;
+    position: absolute;
+    width: 8px;
+}
+
+/*slider area*/
+.slider-area{
+	height: auto;
+    min-height: 450px;
+    padding-bottom:0px;
+    padding-top: 0px;
+    width: 100%;
+}
+.image-container{
+	height: 450px;
+	overflow:hidden; 
+	position: relative;
+}
+.image-container img{
+	border: medium none;
+    height: auto;
+    left: 0;
+    top:-300px;
+    margin: 0;
+    max-height: none;
+    max-width: none;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -999999;
+}
+
+/*featured property*/
+.featured-listing-area{
+	background: #F4F4F4;
+	padding:50px;
+}
+.featured-listing-area h2{
+	padding-bottom: 25px;
+}
+.property-quick-icons{
+	background: #4FC1E9;
+	padding:5px 5px;
+}
+.property-quick-icons ul{
+	margin:0;
+	padding:0;
+}
+.property-quick-icons li{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+.property-listing-description{
+	background: #fff;
+	padding:25px 15px;
+}
+.property-listing-description h5{
+	margin:0;
+	padding:5px 0;
+	color: #4fc1e9;
+}
+.property-listing-description p{
+	color: #777;
+	font-family: "Open Sans",sans-serif;
+	font-weight: 300;
+}
+.property-listing-price{
+	position: absolute;
+	top:0;
+	padding:10px;
+	color: #fff;
+	background: #4fc1e9;
+	font-family: "Open Sans",sans-serif;
+	font-weight: 300;
+}
+
+/*footer*/
+footer{
+	background: #0F101A;
+}
+.footer-title{
+	color: #a1a1a1;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
