@@ -3,8 +3,8 @@ $(window).ready(function() {
 	$(function() {
 	    $('body').vegas({
 	        slides: [
-	            { src: '../arillo/img/bg01.jpg' },
-	            { src: '../arillo/img/bg02.jpg' }
+	            { src: '../arillo/img/property1.jpg' },
+	            { src: '../arillo/img/property2.jpg' }
 	        ]
 	    });
 	});

@@ -7,7 +7,7 @@ h1,h2,h3,h4{
 }
 
 .section-title{
-	color: #6b6e80;
+	color: #6c7175;
 }
 
 /*nav bar*/
@@ -20,12 +20,13 @@ h1,h2,h3,h4{
 }
 .navbar .navbar-nav li a{
 	padding: 30px 35px;
+	color: #3498DB;
 }
 .navbar .navbar-nav li a:hover{
 	background: none;
 }
-.navbar .navbar-nav li.active a:after{
-	background: #3bafda none repeat scroll 0 0;
+/*.navbar .navbar-nav li.active a:after{
+	background: #3498DB none repeat scroll 0 0;
     border-radius: 100%;
     bottom: 15px;
     content: "";
@@ -34,7 +35,7 @@ h1,h2,h3,h4{
     margin-left: -4px;
     position: absolute;
     width: 8px;
-}
+}*/
 
 /*slider area*/
 .slider-area{
@@ -49,6 +50,36 @@ h1,h2,h3,h4{
 	position: absolute;
 	z-index:5;
 	top:150px;
+	width: 450px;
+	background: rgba(255, 255, 255, 0.7);
+	padding:15px;
+}
+.filter-property label{
+	color: #6b6e80;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+.filter-property select,
+.filter-property input{
+	border-radius: 0px;
+	box-shadow: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+.filter-property select:focus,
+.filter-property input:focus{
+	border-radius: 0px;
+	border-color: none;
+	box-shadow: none;
+}
+.search-button{
+	background: #3498DB;
+	color: #f7f7f7;
+	text-shadow:none;
+	border-radius: 0px;
+	border:0px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
 }
 /*.image-container:after{
 	background-color: rgba(0, 0, 0, 0.55);
@@ -88,7 +119,7 @@ h1,h2,h3,h4{
 	padding-bottom: 25px;
 }
 .property-quick-icons{
-	background: #4FC1E9;
+	background: #3498DB;
 	padding:5px 5px;
 }
 .property-quick-icons ul{
@@ -116,11 +147,30 @@ h1,h2,h3,h4{
 .property-listing-price{
 	position: absolute;
 	top:0;
+	right: 15px;
 	padding:10px;
 	color: #fff;
-	background: #4fc1e9;
+	background: #3498DB;
 	font-family: "Open Sans",sans-serif;
 	font-weight: 300;
+}
+
+/*agent info area*/
+.agent-info-area{
+	padding:25px 50px;
+	background: #F4F4F4;
+}
+.agent-info-area p{
+	font-family: "Open Sans",sans-serif;
+	font-weight: 300;	
+}
+.agent-image img{
+	border-radius:0px;
+	border:1px solid #bbb;
+}
+.properties-sold li .img-thumbnail{
+	border-radius:0px;
+	border:1px solid #bbb;
 }
 
 /*agent listing area*/
@@ -155,6 +205,69 @@ h1,h2,h3,h4{
 .agent-description p{
 	font-family: "Open Sans",sans-serif;
 	font-weight: 300;
+}
+
+/*social share area*/
+.blog-contact-area{
+	background: #f4f4f4;
+}
+.blog-contact-area h4{
+	padding-bottom:15px;
+}
+.blog-list,
+.contact-area{
+	padding: 15px;
+	/*background: rgba(255, 255, 255, 0.7);*/
+}
+.blog-list ul{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+.blog-list ul li{
+	border-bottom:1px solid #e3e3e3;
+	padding:15px;
+}
+.blog-list ul li .img-thumbnail{
+	border-radius:0px;
+	border:1px solid #bbb;
+}
+.blog-list ul li span{
+	font-family: "Open Sans",sans-serif;
+	font-weight: 300;
+	font-size:12px;
+}
+.blog-list ul li p{
+	margin:0;
+	padding:0;
+}
+.blog-list ul li a{
+	font-family: "Open Sans",sans-serif;
+	font-weight: 300; 
+}
+hr{
+	background: #f4f4f4;
+	border-color: #e3e3e3;
+}
+.contact-area label{
+	color: #6b6e80;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+.contact-area select,
+.contact-area input,
+.contact-area textarea{
+	border-radius: 0px;
+	box-shadow: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+.contact-area select:focus,
+.contact-area input:focus,
+.contact-area textarea{
+	border-radius: 0px;
+	border-color: none;
+	box-shadow: none;
 }
 
 /*footer*/
