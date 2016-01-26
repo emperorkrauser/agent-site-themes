@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="fonts/fontello/css/fontello.css">
     <link rel="stylesheet" href="css/vegas.css">
+    <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="css/bootstrap-image-gallery.css">
 </head>
 
 <body>
@@ -58,6 +60,93 @@
                         <h2>My Property</h2>
                         <p>Beverly Hills 2010</p>
                         <h3>$1,000,000</h3>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="property-detail-filter">
+        <div class="container">
+            <div class="row">
+                <div class="property-filter-form">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="">State</label>
+                            <select name="" id="" class="form-control">
+                                <option value="">Arkansas</option>
+                                <option value="">California</option>
+                                <option value="">Texas</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="">City</label>
+                            <select name="" id="" class="form-control">
+                                <option value="">New York</option>
+                                <option value="">Brooklyn</option>
+                                <option value="">Akron</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="">Bedroom</label>
+                            <select name="" id="" class="form-control">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="">Bathroom</label>
+                            <select name="" id="" class="form-control">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="">Status</label>
+                            <select name="" id="" class="form-control">
+                                <option value="">For Sale</option>
+                                <option value="">For Rent</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="">Type</label>
+                            <select name="" id="" class="form-control">
+                                <option value="">Villa</option>
+                                <option value="">Residential</option>
+                                <option value="">Commercial</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label for="">Min Price</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label for="">Max Price</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <!-- <div class="form-group">
+                            <label ></label>
+                            <button class="btn btn-default btn-block submit-button">Search</button>
+                        </div> -->
+                        <button class="btn btn-default btn-block submit-button">Search</button>
                     </div>
                 </div>
             </div>
@@ -128,30 +217,66 @@
                                     <li>Dining Room: </li>
                                     <li>Kitchen: </li>
                                     <li>Master Bedroom: </li>
-                                    <li>Bedroom 2:  12×11</li>
+                                    <li>Bedroom 2: </li>
                                 </ul>
                             </div>
                         </div>
-                        <!-- <div class="photo-gallery">
+
+                        <div class="photo-gallery">
                             <div class="col-md-2">
-                                <img src="img/property1.jpg" alt="" class="img-responsive img-thumbnail">
-                            </div>
-                            <div class="col-md-2">
-                                <img src="img/property1.jpg" alt="" class="img-responsive img-thumbnail">
-                            </div>
-                            <div class="col-md-2">
-                                <img src="img/property1.jpg" alt="" class="img-responsive img-thumbnail">
+                                <a href="img/property1.jpg" data-gallery="">
+                                    <img src="img/property1.jpg" alt="" class="img-responsive img-thumbnail">  
+                                </a>
                             </div>
                             <div class="col-md-2">
-                                <img src="img/property1.jpg" alt="" class="img-responsive img-thumbnail">
+                                <a href="img/property2.jpg" data-gallery="">
+                                    <img src="img/property2.jpg" alt="" class="img-responsive img-thumbnail">    
+                                </a>
                             </div>
-                             <div class="col-md-2">
-                                <img src="img/property1.jpg" alt="" class="img-responsive img-thumbnail">
+                            <div class="col-md-2">
+                                <a href="img/property3.jpg" data-gallery="">
+                                    <img src="img/property3.jpg" alt="" class="img-responsive img-thumbnail">    
+                                </a>
                             </div>
-                             <div class="col-md-2">
-                                <img src="img/property1.jpg" alt="" class="img-responsive img-thumbnail">
+                            <div class="col-md-2">
+                                <a href="img/property4.jpg" data-gallery="">
+                                    <img src="img/property4.jpg" alt="" class="img-responsive img-thumbnail">    
+                                </a>
                             </div>
-                        </div> -->
+                            <div class="col-md-2">
+                                <a href="img/property5.png" data-gallery="">
+                                    <img src="img/property5.png" alt="" class="img-responsive img-thumbnail">    
+                                </a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="img/property7.png" data-gallery="">
+                                    <img src="img/property7.png" alt="" class="img-responsive img-thumbnail">    
+                                </a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="img/property8.png" data-gallery="">
+                                    <img src="img/property8.png" alt="" class="img-responsive img-thumbnail">    
+                                </a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="img/property9.png" data-gallery="">
+                                    <img src="img/property9.png" alt="" class="img-responsive img-thumbnail"> 
+                                    <div class="see-all">
+                                        <p>See all 10 photos</p>
+                                    </div> 
+                                </a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="img/bg01.jpg" data-gallery="">
+                                    <img src="img/bg01.jpg" alt="" class="img-responsive img-thumbnail">    
+                                </a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="img/bg02.jpg" data-gallery="">
+                                    <img src="img/bg02.jpg" alt="" class="img-responsive img-thumbnail">    
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -211,11 +336,50 @@
         </div>
     </footer>
 
+    <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+    <div id="blueimp-gallery" class="blueimp-gallery">
+        <!-- The container for the modal slides -->
+        <div class="slides"></div>
+        <!-- Controls for the borderless lightbox -->
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+        <!-- The modal dialog, which will be used to wrap the lightbox content -->
+        <div class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title"></h4>
+                        <p class="caption">Place caption here</p>
+                    </div>
+                    <div class="modal-body next">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default pull-left prev">
+                            <i class="glyphicon glyphicon-chevron-left"></i>
+                            Previous
+                        </button>
+                        <button type="button" class="btn btn-primary next">
+                            Next
+                            <i class="glyphicon glyphicon-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/vegas.js"></script>
+    <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="js/bootstrap-image-gallery.js"></script>
 </body>
 
 </html>
