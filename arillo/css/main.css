@@ -333,6 +333,9 @@ footer{
 }
 
 /*property detail page*/
+.property-main-content{
+	background: #F1F3F7;
+}
 .property-detail-header{
 	position: relative;
 	height: 450px;
@@ -347,9 +350,14 @@ footer{
 }
 .property-header-text{
 	position: absolute;
-	top:350px;
+	top:300px;
 }
-.property-header-text h2{
+.property-header-text h3{
+	margin:0;
+	font-size:30px;
+}
+.property-header-text h2,
+.property-header-text h3{
 	color: #fff;
 	font-weight: 600;
 	font-family: "Raleway",sans-serif;
@@ -379,6 +387,15 @@ footer{
 	font-family: "Open Sans",sans-serif;
 	font-weight: 300;
 }
+.property-details ul li a{
+	color: #3498db;
+}
+.filter-tab{
+	background: #fff;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	padding:15px;
+	margin:15px 0;
+}
 .filter-tab ul{
 	margin:0;
 	padding: 0;
@@ -387,9 +404,47 @@ footer{
 .filter-tab li a{
 	font-family: "Open Sans",sans-serif;
 	font-weight: 300;
+	color: #3498db;
 }
-
-
+.filter-tab li .badge{
+	font-family: "Open Sans",sans-serif;
+	font-weight: 300;
+	background: #52b6f9; 
+}
+.filter-tab li i{
+	font-size:20px;
+}
+.property-social-share{
+	margin:0 auto;
+}
+.property-social-share li{
+	padding: 0;
+	margin:0;
+}
+.property-social-share li a{
+	text-align: center;
+}
+.property-social-share li .fa{
+	width: 30px;
+	height: 30px;
+	padding-top: 5px;
+	color: #fff;
+}
+.property-social-share li .fa-envelope{
+	background: #333;
+}
+.property-social-share li .fa-facebook{
+	background: #4a66a0;
+}
+.property-social-share li .fa-twitter{
+	background: #55acee;
+}
+.property-social-share li .fa-google-plus{
+	background: #d73d32;
+}
+.property-social-share li .fa-linkedin{
+	background: #0177b5;
+}
 
 
 
