@@ -180,18 +180,20 @@ a:hover{
 .agent-info-area{
 	padding:25px 50px;
 	background: #F4F4F4;
+	color: #6b6e80;
 }
 .agent-info-area p{
 	font-family: "Open Sans",sans-serif;
-	font-weight: 300;	
+	font-weight: 300;
+	color: #6b6e80;
 }
 .agent-image img{
 	border-radius:0px;
-	border:1px solid #bbb;
+	border:1px solid #ddd;
 }
 .properties-sold li .img-thumbnail{
 	border-radius:0px;
-	border:1px solid #bbb;
+	border:1px solid #ddd;
 }
 
 /*agent listing area*/
@@ -368,6 +370,9 @@ footer{
 	color: #fff;
 	font-family: "Raleway",sans-serif;
 }
+.property-detail-sections{
+	padding:15px 0;
+}
 .property-detail-filter{
 	padding:25px 0;
 }
@@ -399,6 +404,10 @@ footer{
 .property-details p{
 	font-family: "Open Sans",sans-serif;
 	font-weight: 300;
+	color: #6b6e80;
+}
+.property-details h4{
+	color: #6b6e80;
 }
 .property-details ul{
 	margin:0;
@@ -411,6 +420,7 @@ footer{
 .property-details ul li{
 	font-family: "Open Sans",sans-serif;
 	font-weight: 300;
+	color: #6b6e80;
 }
 .property-details ul li a{
 	color: #3498db;
@@ -420,6 +430,9 @@ footer{
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 	padding:15px;
 	margin:15px 0;
+}
+.filter-tab h4{
+	color: #6b6e80;
 }
 .filter-tab ul{
 	margin:0;
@@ -505,8 +518,8 @@ footer{
 }
 .blueimp-gallery .caption{
 	position: absolute;
-	top:0;
-	z-index: 999;
+	bottom:10px;
+	z-index: 1;
 }
 .blueimp-gallery .modal-content,
 .blueimp-gallery .modal-header{
@@ -516,9 +529,72 @@ footer{
 .blueimp-gallery .modal-footer{
 	border:0px;
 }
+.blueimp-gallery .modal-footer .caption{
+	font-family: "Open Sans",sans-serif;
+	font-weight: 300;
+	color: #333;
+	margin-top:-13px;
+	width: 100%;
+	text-align: center;
+}
+.prev{
+	text-shadow:none;
+	color: #fff;
+}
+.btn-directions{
+	background: #52b6f9;
+	box-shadow: none;
+	border: 0px;
+	border-radius: 0px;
+	position: relative;
+	z-index: 3;
+}
+.location-info{
+	clear: both;
+	padding:25px 0;
+}
+.property-agent-info p{
+	font-family: "Open Sans",sans-serif;
+	font-weight: 300;
+	margin:0;
+	color: #3498db;
+}
+.property-agent-info .agent-name{
+	font-weight: bold;
+	color: #3498db;
+}
+.property-submit-question label{
+	color: #6b6e80;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+.property-submit-question select,
+.property-submit-question input,
+.property-submit-question textarea{
+	border-radius: 0px;
+	box-shadow: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+.property-submit-question select:focus,
+.property-submit-question input:focus{
+	border-radius: 0px;
+	border-color: none;
+	box-shadow: none;
+}
+.property-other-listings .col-md-3{
+	padding: 0 5px;
+}
+.other-listing-item{
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	background: #fff;
+	padding:15px;
+}
+.other-listing-item img{
+	margin-bottom: 5px;
+}
 
-
-
+/*misc*/
 
 
 

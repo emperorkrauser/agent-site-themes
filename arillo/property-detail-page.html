@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/vegas.css">
     <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
     <link rel="stylesheet" href="css/bootstrap-image-gallery.css">
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 </head>
 
 <body>
@@ -157,7 +158,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <div class="filter-tab">
+                    <!-- <div class="filter-tab">
                         <h4 class="text-center">Property Type</h4>
                         <hr>
                         <ul>
@@ -167,10 +168,24 @@
                             <li><a href="">Rentals</a> <span class="badge">3</span></li>
                             <li><a href="">Commercial</a> <span class="badge">8</span></li>
                         </ul>
+                    </div> -->
+
+                    <div class="filter-tab">
+                        <div class="property-agent-info">
+                            <h4 class="text-center">Agent</h4>
+                            <hr>
+                            <div class="agent-image">
+                                <img src="img/agent-squared.jpg" alt="" class="img-thumbnail">    
+                            </div>
+                            <h4 class="agent-name">Pia Alonzo Wurtzbach</h4>
+                            <p><i class="fa fa-phone"></i> : 234-2324</p>
+                            <p><i class="fa fa-mobile"></i> : 09323346282</p>
+                            <p><i class="fa fa-envelope"></i> : <a href="">Email Me</a></p>
+                        </div>
                     </div>
 
                     <div class="filter-tab">
-                        <h4 class="text-center">Share this to:</h4>
+                        <h4 class="text-center">Share this property to:</h4>
                         <hr>
                         <ul class="list-inline property-social-share">
                             <li><a href="#"><i class="fa fa-envelope"></i></a></li>
@@ -181,15 +196,40 @@
                         </ul>
                     </div>
 
+                    <div class="filter-tab">
+                        <div class="property-submit-question">
+                            <h4 class="text-center">Have a question?</h4>
+                            <hr>
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="">Name</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Email</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Message</label>
+                                    <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+                                </div>
+                                <button class="btn btn-default btn-block submit-button">Submit</button>
+                            </form> 
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-md-9">
                     <div class="property-details">
-                        <div class="description">
+                        <div class="description property-detail-sections">
                             <h4>Description</h4>
                             <p>
                                 Pellentesque nisi tortor, congue eu consectetur ac, molestie in eros. Nullam ac suscipit est. Vestibulum pellentesque tincidunt magna non euismod. Maecenas suscipit nec augue vitae laoreet. Proin purus eros, tincidunt vel nulla quis, vulputate posuere ex. In hendrerit suscipit purus non dictum. In consectetur, ipsum eget egestas tempor, neque enim aliquet risus, vel imperdiet elit nibh eu nisi. Phasellus nulla justo, tristique eget vestibulum quis, cursus quis felis. Donec ac lacus volutpat, convallis leo at, ornare massa. Etiam ac placerat odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec orci nibh, mollis non nunc eget, faucibus condimentum ipsum. Phasellus quis lorem eu turpis dictum consectetur. Integer tempor magna vel nulla sagittis ultricies. 
                             </p>
+                        </div>
 
+                        <div class="specifications property-detail-sections">
+                            <h4>Specifications</h4>
                             <div class="col-md-4 col-sm-4">
                                 <h4 class="text-center">Interior Details</h4>
                                 <ul>
@@ -222,7 +262,7 @@
                             </div>
                         </div>
 
-                        <div class="photo-gallery">
+                        <div class="photo-gallery property-detail-sections">
                             <div class="col-md-2">
                                 <a href="img/property1.jpg" data-gallery="">
                                     <img src="img/property1.jpg" alt="" class="img-responsive img-thumbnail">  
@@ -275,6 +315,57 @@
                                 <a href="img/bg02.jpg" data-gallery="">
                                     <img src="img/bg02.jpg" alt="" class="img-responsive img-thumbnail">    
                                 </a>
+                            </div>
+                        </div>
+
+                        <div class="location-info property-detail-sections">
+                            <h4>Location</h4>
+                            <div class="col-md-12">
+                                <div id="mapPlaceholder"></div>    
+                            </div>
+                        </div>
+
+                        <div class="property-other-listings property-detail-sections">
+                            <h4>Other Related Listings</h4>
+                            <div class="col-md-3">
+                                <div class="other-listing-item">
+                                    <a href="">
+                                        <img src="img/property1.jpg" alt="" class="img-responsive">
+                                        <p><a href="">Marriot Hotel</a></p>
+                                        <p><i class="fa fa-map-marker"></i> : Cebu Business Park</p>
+                                        <p><i class="fa fa-usd"></i> : 1,000,000</p>
+                                    </a>    
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="other-listing-item">
+                                    <a href="">
+                                        <img src="img/property2.jpg" alt="" class="img-responsive">
+                                        <p><a href="">Marriot Hotel</a></p>
+                                        <p><i class="fa fa-map-marker"></i> : Cebu Business Park</p>
+                                        <p><i class="fa fa-usd"></i> : 1,000,000</p>
+                                    </a>    
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="other-listing-item">
+                                    <a href="">
+                                        <img src="img/property3.jpg" alt="" class="img-responsive">
+                                        <p><a href="">Marriot Hotel</a></p>
+                                        <p><i class="fa fa-map-marker"></i> : Cebu Business Park</p>
+                                        <p><i class="fa fa-usd"></i> : 1,000,000</p>
+                                    </a>    
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="other-listing-item">
+                                    <a href="">
+                                        <img src="img/property4.jpg" alt="" class="img-responsive">
+                                        <p><a href="">Marriot Hotel</a></p>
+                                        <p><i class="fa fa-map-marker"></i> : Cebu Business Park</p>
+                                        <p><i class="fa fa-usd"></i> : 1,000,000</p>     
+                                    </a>    
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -336,36 +427,32 @@
         </div>
     </footer>
 
-    <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+    
     <div id="blueimp-gallery" class="blueimp-gallery">
         <!-- The container for the modal slides -->
         <div class="slides"></div>
-        <!-- Controls for the borderless lightbox -->
         <h3 class="title"></h3>
         <a class="prev">‹</a>
         <a class="next">›</a>
         <a class="close">×</a>
         <a class="play-pause"></a>
         <ol class="indicator"></ol>
-        <!-- The modal dialog, which will be used to wrap the lightbox content -->
         <div class="modal fade">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <button type="button" class="close" aria-hidden="true">&times;</button>
+                        <button type="button" class="close" aria-hidden="true">X</button>
                         <h4 class="modal-title"></h4>
-                        <p class="caption">Place caption here</p>
                     </div>
                     <div class="modal-body next">
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default pull-left prev">
-                            <i class="glyphicon glyphicon-chevron-left"></i>
+                        <button type="button" class="btn btn-default pull-left prev btn-directions">
                             Previous
                         </button>
-                        <button type="button" class="btn btn-primary next">
+                        <p class="caption">Place caption here</p>
+                        <button type="button" class="btn btn-primary next btn-directions">
                             Next
-                            <i class="glyphicon glyphicon-chevron-right"></i>
                         </button>
                     </div>
                 </div>
@@ -380,6 +467,57 @@
     <script src="js/vegas.js"></script>
     <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
     <script src="js/bootstrap-image-gallery.js"></script>
+    <script>
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showCurrentLocation);
+        }
+        else {
+            alert("Geolocation API not supported.");
+        }
+
+        function showCurrentLocation(position) {
+            var latitude = position.coords.latitude;
+            var longitude = position.coords.longitude;
+            // var loca = GetLocation($.cookie('sites_address'));
+
+            var geocoder = new google.maps.Geocoder();
+            geocoder.geocode({ 'address': $.cookie('sites_address') }, function (results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+                    console.log("Call Okay");
+                    latitude = results[0].geometry.location.lat();
+                    longitude = results[0].geometry.location.lng();
+
+                    console.log("Latitude: "+latitude+", Longitude: "+longitude );
+                    var coords = new google.maps.LatLng(latitude, longitude);
+
+                    var mapOptions = {
+                        zoom: 15,
+                        center: coords,
+                        mapTypeControl: true,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    };
+
+                    //create the map, and place it in the HTML map div
+                    map = new google.maps.Map(
+                        document.getElementById("mapPlaceholder"), mapOptions
+                    );
+
+                    //place the initial marker
+                    var marker = new google.maps.Marker({
+                        position: coords,
+                        map: map,
+                        title: "Current location!"
+                    });
+                } 
+                else {
+                    alert("Request failed.");
+                    return false;
+                }
+            });
+
+            
+        }
+    </script>
 </body>
 
 </html>
