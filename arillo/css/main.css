@@ -240,6 +240,7 @@ a:hover{
 }
 .blog-contact-area h4{
 	padding-bottom:15px;
+	color: #6b6e80;
 }
 .blog-list,
 .contact-area{
@@ -649,7 +650,6 @@ footer{
 	display: table;
 	clear: both;
 }
-
 
 
 
