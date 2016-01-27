@@ -59,7 +59,7 @@
                     <div class="property-header-text">
                         <h2>My Property</h2>
                         <p>Beverly Hills 2010</p>
-                        <h3>$1,000,000</h3>
+                        <h3>$1,000,000</h3>    
                     </div>
                 </div>
             </div>
@@ -156,36 +156,46 @@
     <section class="property-main-content">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
-                
-                    <div class="filter-tab">
-                        <div class="property-agent-info">
-                            <h4 class="text-center">Agent</h4>
-                            <hr>
-                            <div class="agent-image">
-                                <img src="img/agent-squared.jpg" alt="" class="img-thumbnail">    
+                <div class="sorting">
+                    <div class="col-md-offset-3 col-md-6">
+                        <div class="col-md-6">
+                            <div class="col-md-4">
+                                <p>Sort by:</p>    
                             </div>
-                            <h4 class="agent-name">Pia Alonzo Wurtzbach</h4>
-                            <p><i class="fa fa-phone"></i> : 234-2324</p>
-                            <p><i class="fa fa-mobile"></i> : 09323346282</p>
-                            <p><i class="fa fa-envelope"></i> : <a href="">Email Me</a></p>
+                            <div class="col-md-8">
+                                <select name="" id="">
+                                    <option value="">Price</option>
+                                    <option value="">Bedrooms</option>
+                                    <option value="">Bathrooms</option>
+                                    <option value="">Square feet</option>
+                                    <option value="">Newest</option>
+                                </select>    
+                            </div>
                         </div>
+                        <div class="col-md-6">
+                            <div class="col-md-3">
+                                <p>Display:</p>    
+                            </div>
+                            <div class="col-md-9">
+                                <select name="" id="">
+                                    <option value="">10</option>
+                                    <option value="">20</option>
+                                    <option value="">30</option>
+                                </select>    
+                            </div>
+                        </div>    
                     </div>
-                    
+                </div>
+                <div class="col-md-3">
                     <div class="filter-tab">
-                        <h4 class="text-center"><a href=""><i class="fa fa-heart-o"></i> Add to Favourites</a></h4>    
-                    </div>
-
-                    <div class="filter-tab">
-                        <h4 class="text-center">Share this property to:</h4>
+                        <h4 class="text-center">Property Type</h4>
                         <hr>
-                        
-                        <ul class="list-inline property-social-share">
-                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <ul>
+                            <li><a href="">Villas</a> <span class="badge">10</span></li>
+                            <li><a href="">Residential</a> <span class="badge">4</span></li>
+                            <li><a href="">Condominiums</a> <span class="badge">6</span></li>
+                            <li><a href="">Rentals</a> <span class="badge">3</span></li>
+                            <li><a href="">Commercial</a> <span class="badge">8</span></li>
                         </ul>
                     </div>
 
@@ -210,157 +220,201 @@
                             </form> 
                         </div>
                     </div>
-
                 </div>
                 <div class="col-md-9">
-                    <div class="property-details">
-                        <div class="description property-detail-sections">
-                            <h4>Description</h4>
-                            <p>
-                                Pellentesque nisi tortor, congue eu consectetur ac, molestie in eros. Nullam ac suscipit est. Vestibulum pellentesque tincidunt magna non euismod. Maecenas suscipit nec augue vitae laoreet. Proin purus eros, tincidunt vel nulla quis, vulputate posuere ex. In hendrerit suscipit purus non dictum. In consectetur, ipsum eget egestas tempor, neque enim aliquet risus, vel imperdiet elit nibh eu nisi. Phasellus nulla justo, tristique eget vestibulum quis, cursus quis felis. Donec ac lacus volutpat, convallis leo at, ornare massa. Etiam ac placerat odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec orci nibh, mollis non nunc eget, faucibus condimentum ipsum. Phasellus quis lorem eu turpis dictum consectetur. Integer tempor magna vel nulla sagittis ultricies. 
-                            </p>
-                        </div>
-
-                        <div class="specifications property-detail-sections">
-                            <h4>Specifications</h4>
-                            <div class="col-md-4 col-sm-4">
-                                <h4 class="text-center">Interior Details</h4>
-                                <ul>
-                                    <li>Interior Size: </li>
-                                    <li>Bedrooms: </li>
-                                    <li>Bathrooms: </li>
-                                    <li>Garage: </li>
-                                    <li>Laundry Room: </li>
-                                </ul>
-                            </div>
-                            <div class="col-md-4 col-sm-4">
-                                <h4 class="text-center">Exterior Details</h4>
-                                <ul>
-                                    <li>Lot Size: </li>
-                                    <li>Roof: </li>
-                                    <li>Sewer: </li>
-                                    <li>Construction: </li>
-                                    <li>Cooling: </li>
-                                </ul>
-                            </div>
-                            <div class="col-md-4 col-sm-4">
-                                <h4 class="text-center">Room Dimensions</h4>
-                                <ul>
-                                    <li>Living Room:  </li>
-                                    <li>Dining Room: </li>
-                                    <li>Kitchen: </li>
-                                    <li>Master Bedroom: </li>
-                                    <li>Bedroom 2: </li>
+                    <div class="search-listings">
+                        <div class="col-md-4">
+                            <div class="search-listing-item">
+                                <a href="">
+                                    <img src="img/property1.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="search-listing-title">
+                                    <div class="col-md-9">
+                                        <p><a href="">Marriot Hotel</a></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p><a href=""><span><i class="fa fa-heart-o"></i></a></span></p>
+                                    </div>    
+                                </div>
+                                
+                                <p><i class="fa fa-map-marker"></i> : Cebu Business Park</p>
+                                <p><i class="fa fa-usd"></i> : 1,000,000</p>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-home"></i> 5.000 m</li>
+                                    <li><i class="fa fa-bed"></i> 2 Bed</li>
+                                    <li><i class="icon-toilet"></i> 2 Bath</li>
                                 </ul>
                             </div>
                         </div>
-
-                        <div class="photo-gallery property-detail-sections">
-                            <div class="col-md-2">
-                                <a href="img/property1.jpg" data-gallery="">
-                                    <img src="img/property1.jpg" alt="" class="img-responsive img-thumbnail">  
+                    
+                    
+                        <div class="col-md-4">
+                            <div class="search-listing-item">
+                                <a href="">
+                                    <img src="img/property1.jpg" alt="" class="img-responsive">
                                 </a>
+                                <div class="search-listing-title">
+                                    <div class="col-md-9">
+                                        <p><a href="">Marriot Hotel</a></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p><a href=""><span><i class="fa fa-heart-o"></i></a></span></p>
+                                    </div>    
+                                </div>
+                                
+                                <p><i class="fa fa-map-marker"></i> : Cebu Business Park</p>
+                                <p><i class="fa fa-usd"></i> : 1,000,000</p>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-home"></i> 5.000 m</li>
+                                    <li><i class="fa fa-bed"></i> 2 Bed</li>
+                                    <li><i class="icon-toilet"></i> 2 Bath</li>
+                                </ul>
                             </div>
-                            <div class="col-md-2">
-                                <a href="img/property2.jpg" data-gallery="">
-                                    <img src="img/property2.jpg" alt="" class="img-responsive img-thumbnail">    
+                        </div>
+                    
+                    
+                        <div class="col-md-4">
+                            <div class="search-listing-item">
+                                <a href="">
+                                    <img src="img/property1.jpg" alt="" class="img-responsive">
                                 </a>
+                                <div class="search-listing-title">
+                                    <div class="col-md-9">
+                                        <p><a href="">Marriot Hotel</a></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p><a href=""><span><i class="fa fa-heart-o"></i></a></span></p>
+                                    </div>    
+                                </div>
+                                
+                                <p><i class="fa fa-map-marker"></i> : Cebu Business Park</p>
+                                <p><i class="fa fa-usd"></i> : 1,000,000</p>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-home"></i> 5.000 m</li>
+                                    <li><i class="fa fa-bed"></i> 2 Bed</li>
+                                    <li><i class="icon-toilet"></i> 2 Bath</li>
+                                </ul>
                             </div>
-                            <div class="col-md-2">
-                                <a href="img/property3.jpg" data-gallery="">
-                                    <img src="img/property3.jpg" alt="" class="img-responsive img-thumbnail">    
+                        </div>
+                    
+                        <div class="col-md-4">
+                            <div class="search-listing-item">
+                                <a href="">
+                                    <img src="img/property1.jpg" alt="" class="img-responsive">
                                 </a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="img/property4.jpg" data-gallery="">
-                                    <img src="img/property4.jpg" alt="" class="img-responsive img-thumbnail">    
-                                </a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="img/property5.png" data-gallery="">
-                                    <img src="img/property5.png" alt="" class="img-responsive img-thumbnail">    
-                                </a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="img/property7.png" data-gallery="">
-                                    <img src="img/property7.png" alt="" class="img-responsive img-thumbnail">    
-                                </a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="img/property8.png" data-gallery="">
-                                    <img src="img/property8.png" alt="" class="img-responsive img-thumbnail">    
-                                </a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="img/property9.png" data-gallery="">
-                                    <img src="img/property9.png" alt="" class="img-responsive img-thumbnail"> 
-                                    <div class="see-all">
-                                        <p>See all 10 photos</p>
-                                    </div> 
-                                </a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="img/bg01.jpg" data-gallery="">
-                                    <img src="img/bg01.jpg" alt="" class="img-responsive img-thumbnail">    
-                                </a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href="img/bg02.jpg" data-gallery="">
-                                    <img src="img/bg02.jpg" alt="" class="img-responsive img-thumbnail">    
-                                </a>
+                                <div class="search-listing-title">
+                                    <div class="col-md-9">
+                                        <p><a href="">Marriot Hotel</a></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p><a href=""><span><i class="fa fa-heart-o"></i></a></span></p>
+                                    </div>    
+                                </div>
+                                
+                                <p><i class="fa fa-map-marker"></i> : Cebu Business Park</p>
+                                <p><i class="fa fa-usd"></i> : 1,000,000</p>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-home"></i> 5.000 m</li>
+                                    <li><i class="fa fa-bed"></i> 2 Bed</li>
+                                    <li><i class="icon-toilet"></i> 2 Bath</li>
+                                </ul>
                             </div>
                         </div>
 
-                        <div class="location-info property-detail-sections">
-                            <h4>Location</h4>
-                            <div class="col-md-12">
-                                <div id="mapPlaceholder"></div>    
+                        <div class="col-md-4">
+                            <div class="search-listing-item">
+                                <a href="">
+                                    <img src="img/property1.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="search-listing-title">
+                                    <div class="col-md-9">
+                                        <p><a href="">Marriot Hotel</a></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p><a href=""><span><i class="fa fa-heart-o"></i></a></span></p>
+                                    </div>    
+                                </div>
+                                
+                                <p><i class="fa fa-map-marker"></i> : Cebu Business Park</p>
+                                <p><i class="fa fa-usd"></i> : 1,000,000</p>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-home"></i> 5.000 m</li>
+                                    <li><i class="fa fa-bed"></i> 2 Bed</li>
+                                    <li><i class="icon-toilet"></i> 2 Bath</li>
+                                </ul>
                             </div>
                         </div>
 
-                        <div class="property-other-listings property-detail-sections">
-                            <h4>Other Related Listings</h4>
-                            <div class="col-md-3">
-                                <div class="other-listing-item">
-                                    <a href="">
-                                        <img src="img/property1.jpg" alt="" class="img-responsive">
+                        <div class="col-md-4">
+                            <div class="search-listing-item">
+                                <a href="">
+                                    <img src="img/property1.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="search-listing-title">
+                                    <div class="col-md-9">
                                         <p><a href="">Marriot Hotel</a></p>
-                                        <p><i class="fa fa-map-marker"></i> : Cebu Business Park</p>
-                                        <p><i class="fa fa-usd"></i> : 1,000,000</p>
-                                    </a>    
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p><a href=""><span><i class="fa fa-heart-o"></i></a></span></p>
+                                    </div>    
                                 </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="other-listing-item">
-                                    <a href="">
-                                        <img src="img/property2.jpg" alt="" class="img-responsive">
-                                        <p><a href="">Marriot Hotel</a></p>
-                                        <p><i class="fa fa-map-marker"></i> : Cebu Business Park</p>
-                                        <p><i class="fa fa-usd"></i> : 1,000,000</p>
-                                    </a>    
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="other-listing-item">
-                                    <a href="">
-                                        <img src="img/property3.jpg" alt="" class="img-responsive">
-                                        <p><a href="">Marriot Hotel</a></p>
-                                        <p><i class="fa fa-map-marker"></i> : Cebu Business Park</p>
-                                        <p><i class="fa fa-usd"></i> : 1,000,000</p>
-                                    </a>    
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="other-listing-item">
-                                    <a href="">
-                                        <img src="img/property4.jpg" alt="" class="img-responsive">
-                                        <p><a href="">Marriot Hotel</a></p>
-                                        <p><i class="fa fa-map-marker"></i> : Cebu Business Park</p>
-                                        <p><i class="fa fa-usd"></i> : 1,000,000</p>     
-                                    </a>    
-                                </div>
+                                
+                                <p><i class="fa fa-map-marker"></i> : Cebu Business Park</p>
+                                <p><i class="fa fa-usd"></i> : 1,000,000</p>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-home"></i> 5.000 m</li>
+                                    <li><i class="fa fa-bed"></i> 2 Bed</li>
+                                    <li><i class="icon-toilet"></i> 2 Bath</li>
+                                </ul>
                             </div>
                         </div>
+
+                        <div class="col-md-4">
+                            <div class="search-listing-item">
+                                <a href="">
+                                    <img src="img/property1.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="search-listing-title">
+                                    <div class="col-md-9">
+                                        <p><a href="">Marriot Hotel</a></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p><a href=""><span><i class="fa fa-heart-o"></i></a></span></p>
+                                    </div>    
+                                </div>
+                                
+                                <p><i class="fa fa-map-marker"></i> : Cebu Business Park</p>
+                                <p><i class="fa fa-usd"></i> : 1,000,000</p>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-home"></i> 5.000 m</li>
+                                    <li><i class="fa fa-bed"></i> 2 Bed</li>
+                                    <li><i class="icon-toilet"></i> 2 Bath</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pagination-area">
+                        <nav>
+                            <ul class="pagination">
+                                <li>
+                                    <a href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li>
+                                    <a href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+
                     </div>
                 </div>
             </div>
