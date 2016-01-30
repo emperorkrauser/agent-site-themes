@@ -65,7 +65,7 @@ p,li,a{
 .top-nav>.open>a:hover,
 .top-nav>.open>a:focus {
     color: #fff;
-    background-color: #000;
+    background-color: #a1a1a1;
 }
 
 .top-nav>.open>.dropdown-menu {
@@ -246,6 +246,12 @@ nav.navbar{
 .navbar-nav > li{
     border:0px;
 }
+.dropdown-menu > li > a{
+    color: #3498DB;
+}
+.dropdown-menu > li > a:hover{
+    color: #a1a1a1;
+}
 
 /*sidebar*/
 .side-nav{
@@ -258,18 +264,102 @@ nav.navbar{
 .side-nav .side-nav > li:focus{
     color: #3498DB;   
 }
-.side-nav .navbar-nav > li > a{
+.side-nav > li > a{
     color: #3498DB;
 }
-.side-nav .navbar-nav > li:hover > a{
+.side-nav > li > a:hover{
+    color: #f4f4f4;
+    background: #3498DB; 
+}
+.side-nav > li:hover > a{
     color: #f4f4f4;
     background: #3498DB;
+}
+.side-nav > li.active a{
+    color: #f4f4f4;
+    background: #3498DB;
+}
+.side-nav > li > ul > li > a{
+    color: #3498DB;
+}
+.side-nav > li > ul > li > a:hover{
+    color: #f4f4f4;
+    background: #a1a1a1;
 }
 .page-header{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
+    color: #a1a1a1;
 }
 .side-nav .navbar-nav > .active > a, .navbar-nav > .active > a:focus, .navbar-nav > .active > a:hover{
     background:#3498db;
     color: #f4f4f4;
+}
+
+/*choose theme*/
+.theme-picture{
+    margin:15px;
+    border:1px solid #e3e3e3;
+    position: relative;
+}
+.theme-description{
+    padding:10px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 2;
+    background: #fff;
+    border-top:1px solid #e3e3e3;
+}
+.theme-name{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: #3498db; 
+}
+.activate-buttons{
+    float: right;
+    display: none;
+    opacity: 0;
+}
+.activate-buttons button{
+    border-radius: 0px;
+    box-shadow: none;
+    text-shadow:none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #666;
+    border:1px solid #ddd;
+}
+.activate-buttons button:hover{
+    transition:all .4s;
+}
+.theme-picture:hover .activate-buttons{
+    display: block;
+    opacity: 1;
+    animation-name:show;
+    animation-duration: .5s;
+}
+.theme-picture:hover .preview-button{
+    display: block;
+    opacity: 1;
+    animation-name:show;
+    animation-duration: .5s;
+}
+@keyframes show{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.preview-button{
+    background: rgba(244, 244, 244, 0.8) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: none;
+    color: #606060;
 }
