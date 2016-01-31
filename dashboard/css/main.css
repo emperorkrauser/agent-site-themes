@@ -363,3 +363,48 @@ nav.navbar{
     display: none;
     color: #606060;
 }
+
+/*featured property*/
+.featured-listing-area{
+    background: #F4F4F4;
+    padding:25px 50px;
+}
+.featured-listing-area h2{
+    padding-bottom: 25px;
+}
+.property-quick-icons{
+    background: #3498DB;
+    padding:5px 5px;
+}
+.property-quick-icons ul{
+    margin:0;
+    padding:0;
+}
+.property-quick-icons li{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.property-listing-description{
+    background: #fff;
+    padding:25px 15px;
+}
+.property-listing-description h5{
+    margin:0;
+    padding:5px 0;
+    color: #4fc1e9;
+}
+.property-listing-description p{
+    color: #777;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+}
+.property-listing-price{
+    position: absolute;
+    top:0;
+    right: 15px;
+    padding:10px;
+    color: #fff;
+    background: #3498DB;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+}
