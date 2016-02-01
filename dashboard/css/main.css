@@ -6,6 +6,11 @@ body {
     background-color:#fff;
 }
 
+h1,h2,h3,h4,h5,p{
+    color: #777;
+    font-family: "Josefin Sans",sans-serif;
+}
+
 p,li,a{
     font-family: "Josefin Sans",sans-serif;
 }
@@ -234,7 +239,7 @@ ul.alert-dropdown {
     background: #2F88C4;
 }
 nav.navbar{
-    background: #3498DB;
+    background: #313643;
     border:0;
 }
 .navbar-brand{
@@ -255,7 +260,7 @@ nav.navbar{
 
 /*sidebar*/
 .side-nav{
-    background: #f4f4f4;
+    background: #3E4453;
     color: #3498DB;
 }
 .side-nav .side-nav > li{
@@ -265,7 +270,7 @@ nav.navbar{
     color: #3498DB;   
 }
 .side-nav > li > a{
-    color: #3498DB;
+    color: #9da5b9;
 }
 .side-nav > li > a:hover{
     color: #f4f4f4;
@@ -437,8 +442,8 @@ nav.navbar{
 }
 .remove-featured{
     position: absolute;
-    top:15px;
-    right:15px;
+    top:5px;
+    right:5px;
     font-size:20px;
     height:30px;
     width: 30px;
@@ -509,4 +514,44 @@ nav.navbar{
     border-radius: 0px;
     border-color: none;
     box-shadow: none;
+}
+.property-filter-form{
+    background: #f4f4f4;
+    padding:15px;
+    margin-bottom:15px;
+}
+.property-filter-form:after,
+.property-filter-form:before{
+    content: "";
+    display: table;
+    clear: both;
+}
+.property-filter-form label{
+    color: #6b6e80;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.property-filter-form select,
+.property-filter-form input{
+    border-radius: 0px;
+    box-shadow: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.property-filter-form select:focus,
+.property-filter-form input:focus{
+    border-radius: 0px;
+    border-color: none;
+    box-shadow: none;
+}
+.property-filter-form .submit-button{
+    margin-top:24px;
+    padding: 8px 0 7px;
+    border-radius: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*dashboard*/
+.dashboard-intro{
+    background: #fff;
 }
