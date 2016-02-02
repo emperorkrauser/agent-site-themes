@@ -230,6 +230,17 @@ ul.alert-dropdown {
     color: #df8a13;
 }
 
+.user-thumb{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    margin:10px 5px 5px 5px;
+}
+.navbar-toggle span{
+    color: #f4f4f4;
+    background: #f4f4f4;
+}
+
 /*user styles*/
 
 /*header line*/
@@ -368,17 +379,6 @@ nav.navbar{
     width: 100%;
     display: none;
     color: #606060;
-}
-
-.user-thumb{
-    width: 30px;
-    height: 30px;
-    border-radius:50%;
-    margin:10px 5px 5px 5px;
-}
-.navbar-toggle span{
-    color: #f4f4f4;
-    background: #f4f4f4;
 }
 
 /*featured property*/
