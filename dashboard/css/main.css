@@ -3,7 +3,7 @@
 
 body {
     margin-top: 100px;
-    background-color:#fff;
+    background-color:#FCFCFC;
 }
 
 h1,h2,h3,h4,h5,p{
@@ -28,7 +28,7 @@ p,li,a{
 #page-wrapper {
     width: 100%;
     padding: 0;
-    background-color: #fff;
+    background-color: #FCFCFC;
 }
 
 .huge {
@@ -552,6 +552,58 @@ nav.navbar{
 }
 
 /*dashboard*/
+.dashboard-welcome{
+    padding: 15px 0;
+}
+.dashboard-welcome small,
+.dashboard-welcome h2{
+    margin:0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #777;
+}
 .dashboard-intro{
-    background: #fff;
+    background: #FCFCFC;
+}
+.btn-choose-theme{
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius:0px;
+}
+.dashboard-intro ul{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+.dashboard-intro li{
+    margin:5px 0;
+}
+.dashboard-intro li a{
+    font-size:16px;
+    text-decoration: none;
+}
+.dashboard-intro li a i{
+    color: #777;
+    font-size: 20px;
+    width:40px;
+}
+.dashboard-panel{
+    padding:15px;
+    margin:50px 0 0 0;
+    background: #F1F3F7;
+}
+.dashboard-panel h1,
+.dashboard-panel h2,
+.dashboard-panel h3,
+.dashboard-panel h4,
+.dashboard-panel h5{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.dashboard-panel ul{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+.dashboard-panel ul li{
+    font-size: 18px;
+    color: #a1a1a1;
 }
